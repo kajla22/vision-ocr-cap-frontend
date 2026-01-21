@@ -1,4 +1,4 @@
-const FUNCTION_URL = "https://<YOUR-FUNCTION-APP-NAME>.azurewebsites.net/api/UploadImageFunction";
+const FUNCTION_URL = "https://6517-web-app.azurewebsites.net/api/UploadImageFunction";
 
 async function uploadImage() {
     const fileInput = document.getElementById("imageInput");
@@ -33,3 +33,4 @@ async function uploadImage() {
         result.innerText = "Upload failed: " + err.message;
     }
 }
+
